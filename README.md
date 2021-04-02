@@ -91,7 +91,7 @@ Open `a/nice/path/to/a.file` then edit it with your settings. You will need:
 * Only Users with Admin privilege should be able to upload Car images.
 * Admin User should be able to list all Cars.
 
-### Rentals
+### Rentals -
 * User should be able to register a new Rent.
 * The minimum timestamp for a Rent is 24 hours.
 * User should not be able to register simultaneous Rents.
