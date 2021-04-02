@@ -47,7 +47,7 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
     $ git clone https://github.com/YOUR_USERNAME/PROJECT_TITLE
     $ cd PROJECT_TITLE
-    $ yarn install
+    $ yarn
 
 ## Configure app
 
@@ -59,8 +59,40 @@ Open `a/nice/path/to/a.file` then edit it with your settings. You will need:
 
 ## Running the project
 
-    $ yarn start
+    $ yarn dev
 
-## Simple build for production
+## Cars:
 
-    $ yarn build
+### Register A New Car -
+* User should be able to register a new Car.
+* User should be able to list all Categories.
+* User should not be able to register two or more cars with the same license_plate.
+* User should not be able to change an already registered license_plate.
+* The new registered Car should have available set to be true by default.
+* Only Users with Admin privilege should be able to register a new Car.
+
+### List All Cars -
+* User should be able to list all available Cars.
+* User should be able to list all available Cars by Categories.
+* User should be able to list all available Cars by the Brand Name.
+* User should be able to list all available Cars by the Car Name.
+* Every User - Logged or not - should be able to gain access to the list.
+
+### Create A Car Specification -
+* User should be able to create a new Specification.
+* User should be able to list all Specifications.
+* User should be able to list all Specifications that a Car has.
+* User should not be able to create a Specification to an nonexistent Car.
+* User should not be able to create an already existent Specification in a Car.
+* Only Users with Admin privilege should be able to register a new Specification.
+
+### Upload Car Images - 
+* User should be able to upload one or more images for the same Car.
+* Only Users with Admin privilege should be able to upload Car images.
+* Admin User should be able to list all Cars.
+
+### Rentals
+* User should be able to register a new Rent.
+* The minimum timestamp for a Rent is 24 hours.
+* User should not be able to register simultaneous Rents.
+* Cars should not be able to register simultaneous Rents.
