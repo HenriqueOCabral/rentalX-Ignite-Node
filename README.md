@@ -96,3 +96,10 @@ Open `a/nice/path/to/a.file` then edit it with your settings. You will need:
 * The minimum timestamp for a Rent is 24 hours.
 * User should not be able to register simultaneous Rents.
 * Cars should not be able to register simultaneous Rents.
+
+### Return Cars -
+* User should be able to return a car.
+* Should be able to charge at least one day of rent.
+* After the return, Car and User should be listed as available to a new Rent
+* After the return, paying amount should be calculated
+* If the return exceeds the time, User should be charged to pay an extra debt.
